@@ -1,60 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doug</title>
-</head>
-<body>
-   <header>
-       <nav>navbar to go here</nav>
-   </header> 
-   <main>
-        <h1>portflio yo</h1>
-        <section>
-        <card>
-            <h2>item 1</h2>
-            <img src=""/>
-            <p>lorem and ipsum</p>
-            <p>ipsum and lorem</p>
-        </card>
-        <card>
-            <h2>item 2</h2>
-            <img src=""/>
-            <p>lorem and ipsum</p>
-            <p>ipsum and lorem</p>
-        </card>  
-        <card>
-            <h2>item 3</h2>
-            <img src=""/>
-            <p>lorem and ipsum</p>
-            <p>ipsum and lorem</p>
-        </card>  
-        <card>
-            <h2>item 4</h2>
-            <img src=""/>
-            <p>lorem and ipsum</p>
-            <p>ipsum and lorem</p>
-        </card>  
-    </section>
-   </main>
-   <footer>
+    <link rel="icon" type="image/png" href="Assets/Images/clippy.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-   </footer>
-<!-- mobile responsive portfolio
+  <body>
+     <!-- NAVBAR -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark col-lg-12">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">About Me</a>
+                        <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                        <a class="dropdown-item" href="contact.html">Contact</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-* Using Bootstrap, develop your portfolio site with the following items:
+    <!-- MAIN -->
+    <main class="container">
+        <div class="row justify-content-lg-center">
+            <div class="card" style="width: 18rem;">
+                <h1>About Me</h1>
+                <img src="Assets/Images/catwall.jpg" class="card-img-top" alt="cats destroying things" />
+                <div class="card-body">
+                    <h5 class="card-title">Still about me</h5>
+                    <p class="card-text">For me, Frontend Development is a great opportunity. At the heart of it is pure creation. It can be messy and rushed, or focused and painfully slow, but it's always taking nothing but an idea and finding the appropriate route and tools to bring that to a finished product. I love that. From nothing, something.</p>
+                    <a href="contact.html" class="btn btn-primary btn-block">Contact me</a>
+                </div>
+            </div> 
+            <div class="card" style="width: 18rem;">
+                <h1>About Me</h1>
+                <img src="Assets/Images/catwall.jpg" class="card-img-top" alt="cats destroying things" />
+                <div class="card-body">
+                    <h5 class="card-title">Still about me</h5>
+                    <p class="card-text">For me, Frontend Development is a great opportunity. At the heart of it is pure creation. It can be messy and rushed, or focused and painfully slow, but it's always taking nothing but an idea and finding the appropriate route and tools to bring that to a finished product. I love that. From nothing, something.</p>
+                    <a href="contact.html" class="btn btn-primary btn-block">Contact me</a>
+                </div>
+            </div> 
+            <div class="card" style="width: 18rem;">
+                <h1>About Me</h1>
+                <img src="Assets/Images/catwall.jpg" class="card-img-top" alt="cats destroying things" />
+                <div class="card-body">
+                    <h5 class="card-title">Still about me</h5>
+                    <p class="card-text">For me, Frontend Development is a great opportunity. At the heart of it is pure creation. It can be messy and rushed, or focused and painfully slow, but it's always taking nothing but an idea and finding the appropriate route and tools to bring that to a finished product. I love that. From nothing, something.</p>
+                    <a href="contact.html" class="btn btn-primary btn-block">Contact me</a>
+                </div>
+            </div> 
+            <div class="card" style="width: 18rem;">
+                <h1>About Me</h1>
+                <img src="Assets/Images/catwall.jpg" class="card-img-top" alt="cats destroying things" />
+                <div class="card-body">
+                    <h5 class="card-title">Still about me</h5>
+                    <p class="card-text">For me, Frontend Development is a great opportunity. At the heart of it is pure creation. It can be messy and rushed, or focused and painfully slow, but it's always taking nothing but an idea and finding the appropriate route and tools to bring that to a finished product. I love that. From nothing, something.</p>
+                    <a href="contact.html" class="btn btn-primary btn-block">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </main>
 
-   * A responsive layout
+    <!-- FOOTER -->
+    <footer class="page-footer font-small  fixed-bottom">
+        <div class="text-center py-3">
+            <a href="https://www.spazcool.com/">spazcool.com</a>
+        </div>
+    </footer>
 
-   * Responsive images
-
-* The Bootstrap portfolio should minimize the use of media queries.
-
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout. -->
-
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
