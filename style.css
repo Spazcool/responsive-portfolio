@@ -1,9 +1,14 @@
+footer{
+
+}
+
 main{
     margin-bottom: 10vh;
 }
 
 .card{
     margin: 10px;
+    width: 20%;
     /* float: left; */
 }
 
