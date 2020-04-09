@@ -10,7 +10,38 @@ main{
     margin: 10px;
     width: 20%;
     /* float: left; */
+    height: 39vh;
 }
+
+.card-body{
+    /* height: 25vh; */
+
+     
+ 
+}
+
+.card-img-top{
+    height: 40%;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/* @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ */
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ } 
 
 #contactBtn{
     clear: both;

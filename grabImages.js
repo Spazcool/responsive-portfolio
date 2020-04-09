@@ -27,31 +27,35 @@ function createNodes(data, index){
     // CREATE NODES
     let div1 = document.createElement("DIV");
     let div2 = document.createElement("DIV");
-    let img = document.createElement("IMG");
+    let img = data.media_type === "image" ? document.createElement("IMG") : document.createElement("IFRAME");
     let title = document.createElement("H5");
     let para = document.createElement("P");
+    let anchor = document.createElement("A");
 
     // ADD NECESSARY ATTRIBUTES
     div1.className = "card";
-    div1.id = "div" + index;
-    div2.className = "card-body";
-    div2.id = "div" + index;
-    img.className = "card-img-top";
-    img.id = "img";
+    div1.id = "card" + index;
+    div2.className = "card-body overflow-auto";
+    div2.id = "card-body" + index;
+    img.className = "card-img-top fadeIn";
     para.innerHTML = data.explanation;
     img.src = data.url;
+    anchor.id = "hdImg" + index;
+    anchor.href = data.hdurl;
     title.innerHTML = data.title
 
     // ADD NODES TO DOCUMENT
     document.getElementById("colleciton").appendChild(div1);
     document.getElementById(div1.id).appendChild(img);
     document.getElementById(div1.id).appendChild(div2);
-    document.getElementById(div2.id).appendChild(title);
+    document.getElementById(div2.id).appendChild(anchor);
+    document.getElementById(anchor.id).appendChild(title);
     document.getElementById(div2.id).appendChild(para);
 }
 
-// todo: nodes created above seem to have some random padding, why?
-// ---
+// --- TODO 
+// * SIZE DESCRIPTIONS AT FIXED HEIGHT
+// * LINK TO HD URL
 // https://api.nasa.gov/
 // https://api.nasa.gov/planetary/apod?api_key=evffvWkvE20YwQYQqknagdjGhb0FZjthYH0ETOTo&date=2020-01-01
 
