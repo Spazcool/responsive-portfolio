@@ -4,7 +4,7 @@ function loadImgs() {
     let key = 'evffvWkvE20YwQYQqknagdjGhb0FZjthYH0ETOTo';
     let requestUrl;
 
-    for( let i = 0; i < 8; i++){
+    for( let i = 0; i < 10; i++){
         // RANDOMIZE DATE VALUE, AS A PROXY FOR RANDOMIZING THE IMAGES
         date = randomDate(new Date(2012, 0, 1), new Date());
         requestUrl = baseUrl + 'api_key=' + key + '&date=' + date;
@@ -33,16 +33,16 @@ function createNodes(data, index){
     let anchor = document.createElement("A");
 
     // ADD NECESSARY ATTRIBUTES
-    div1.className = "card";
+    div1.className = "card col-sm-12 col-md-4 col-lg-2";
     div1.id = "card" + index;
     div2.className = "card-body overflow-auto";
     div2.id = "card-body" + index;
     img.className = "card-img-top fadeIn";
-    para.innerHTML = data.explanation;
     img.src = data.url;
     anchor.id = "hdImg" + index;
     anchor.href = data.hdurl;
     title.innerHTML = data.title
+    para.innerHTML = data.explanation;
 
     // ADD NODES TO DOCUMENT
     document.getElementById("colleciton").appendChild(div1);
@@ -54,8 +54,7 @@ function createNodes(data, index){
 }
 
 // --- TODO 
-// * SIZE DESCRIPTIONS AT FIXED HEIGHT
-// * LINK TO HD URL
+
 // https://api.nasa.gov/
 // https://api.nasa.gov/planetary/apod?api_key=evffvWkvE20YwQYQqknagdjGhb0FZjthYH0ETOTo&date=2020-01-01
 
