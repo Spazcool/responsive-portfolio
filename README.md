@@ -3,8 +3,8 @@
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. The following is my work toward that goal.
 
 <div>
-   <img width="70%" height="80vh" src="/Assets/Images/desktop.gif">
-   <img width="20%" height="80vh" src="/Assets/Images/mobile.gif">
+   <img width="70%" height="100vh" src="/Assets/Images/desktop.gif">
+   <img width="20%" height="100vh" src="/Assets/Images/mobile.gif">
 </div>
 
 ## What I've done:
