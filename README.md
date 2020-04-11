@@ -7,13 +7,15 @@ Responsive design ensures that web applications render well on a variety of devi
    <img width="20%" height="300vh" src="/Assets/Images/mobile.gif">
 </p>
 
-## What I've done:
+## What you'll notice:
+* responsive breakpoints around mobile, tablets & desktops
 * navbar
 * dropdown with links to other pages
 * footer
 * email submission form
-* responsive breakpoints around mobile, tablets & desktops
-* calls to NASA API random images 
+* calls to NASA API for random images
+* favicon
+* links
 
 - - -
 
