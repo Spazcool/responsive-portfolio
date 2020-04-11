@@ -1,15 +1,11 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. The following is my work toward that goal.
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+<img align="center" width="75%" height="30%" src="/Assets/Images/desktop.gif">
+<img align="center" width="20%" height="30%" src="/Assets/Images/mobile.gif">
 
-
-
-<div align="center">![desktop](/Assets/Images/desktop.gif)</div>
-<div align="center">![mobile](/Assets/Images/mobile.gif)</div>
-
-
-## What was done:
+## What I've done:
 * navbar
 * dropdown with links to other pages
 * footer
