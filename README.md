@@ -4,10 +4,9 @@
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 
-![desktop](/Assets/Images/desktop.mp4)
-![desktop](/Assets/Images/desktop.gif)
-![mobile](/Assets/Images/mobile.mp4)
-![mobile](/Assets/Images/mobile.gif)
+
+<div align="center">![desktop](/Assets/Images/desktop.gif)</div>
+<div align="center">![mobile](/Assets/Images/mobile.gif)</div>
 
 
 ## What was done:
